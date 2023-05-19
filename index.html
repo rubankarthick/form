@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ruban</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>STUDENT REGISTRATION FORM</h1>
+    </div><br><br>
+
+
+    <div class="border">
+        <div class="logo-head">
+            <img src="logo.png" alt="LOGO">
+            <span>
+                <h1>KARPAGAM TECH</h1><br><br>
+                <p>Mallumachampatti, Coimabtore</p>
+            </span>
+        </div><br>
+        <hr>
+        <div>
+            <form action=".php" target="_blank">
+
+                <label for="fname">First Name<br></label>
+                <input type="text" class="fname" id="fname" name="firstname" placeholder="Your name.." required>
+                <input type="text" class="fname" id="fname" name="lastname" placeholder="Your last name.." required>
+                <HR>
+                <label for="lname">Your Id</label><br>
+                <input type="text" class="objects" id="lname" name="lastname" value="#"><br><br>
+                <HR>
+                <label for="dept">Department</label><br>
+                <select id="dept" name="dept">
+                    <option value="eee">B.E - EEE </option>
+                    <option value="ece">B.E - ECE </option>
+                    <option value="mech">B.E - MECH </option>
+                    <option value="cse">B.E - CSE </option>
+                    <option value="it">B.TECH - IT </option>
+                    <option value="aids">B.TECH - AIDS </option><br><br>
+                </select>
+                <HR>
+                <p>Please select your year of studying :</p>
+                <div class="year">
+                    <input type="radio" id="First" name="" value="First">
+                    <label for="First">First</label><br>
+                    <input type="radio" id="Second" name="fav_language" value="Second">
+                    <label for="Second">Second</label><br>
+                    <input type="radio" id="Third" name="fav_language" value="Third">
+                    <label for="Third">Third</label><br>
+                </div>
+                <HR>
+                <label for="email">Email Address</label><br>
+                <input type="email" class="objects" id="email" name="email" placeholder="Enter Your Email.."
+                    required><br><br>
+                <HR>
+                <label for="password">Confirm Password</label><br>
+                <input type="password" class="objects" id="password" name="lastname" placeholder="Enter Your password.."
+                    required minlength="6"><br><br>
+                <HR>
+                <label for="password">Confirm Password</label><br>
+                <input type="password" class="objects" id="password" name="lastname" placeholder="Enter Your password.."
+                    required minlength="6"><br><br>
+                <br>
+                <a href="index.html">Reset</a><br><br>
+                <HR>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

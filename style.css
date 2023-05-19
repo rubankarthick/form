@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    border: 2px solid #ff0000;
+    background-color: #ff0000;
+    padding: 10px;
+}
+
+a:hover{
+    
+    color: red;
+    border: 2px solid red;
+    background-color: white;
+    transition: 0.4s;
+}
+
+
+.header {
+    background-color: black;
+}
+
+.header h1 {
+    color: rgb(255, 255, 255);
+    margin: 0%;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.border {
+    border: 2px solid;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 2%;
+    padding: 2%;
+    text-align: center;
+}
+
+.objects,
+select {
+    width: 80%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ff0000;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.fname {
+    width: 40%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ff0000;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input[type=email],
+select {
+    width: 80%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ff0000;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password],
+select {
+    width: 80%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ff0000;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 80%;
+    background-color: #ff0000;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: 2px solid #ff0000;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #ffffff;
+    border: 2px solid #ff0000;
+    color: #ff0000;
+
+}
+
+.year {
+    border: 2px solid red;
+    border-radius: 4px;
+    margin: 10%;
+    padding: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 2%;
+    padding-left: 30%;
+    text-align: left;
+}
+
+.logo-head{
+    padding: 2%;
+}
+
+.logo-head img{
+    width: 35%;
+    float: left;
+}
+
+.logo-head h1{
+    float: right;
+    text-align: right;
+    font-size: 20px;
+    margin: 0;
+    color: rgb(47, 92, 155);
+}
+
+.logo-head p{
+    color: #ff0000;
+    float: right;
+    font-size: 10px;
+    margin: 0;
+}
